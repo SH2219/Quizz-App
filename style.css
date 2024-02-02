@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(58, 10, 50);
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.title {
+  color: aliceblue;
+  padding-top: 50px;
+}
+
+.card-title {
+  border-bottom: 1.6px solid black;
+  padding-bottom: 30px;
+}
+
+.quest {
+  display: flex;
+  flex-direction: column !important;
+  padding: 20px 0;
+}
+
+.btn {
+  background: #fff;
+  color: #222;
+  width: 75%;
+  border: 1.3px solid rgb(113, 109, 109);
+  padding: 10px;
+  margin: 10px 5px;
+  text-align: left;
+  border-radius: 5px;
+  transition: all 0.1 s;
+  cursor: pointer;
+}
+
+.btn:hover:not([disabled]) {
+  background: #faeeee;
+  border: 1px solid #a75b5b;
+  border-radius: 20px;
+}
+
+.btn:disabled{
+  cursor: not-allowed!important ;
+}
+
+#next {
+  border: transparent;
+  border-radius: 3px;
+  background-color: darkblue;
+  color: #fff;
+  width: 8rem;
+  height: 2.5rem;
+  text-align: center;
+  margin-left: 45vh;
+  display: none;
+  text-transform: capitalize!important;
+  font-size: 20px;
+}
+
+#next:hover{
+background-color: rgba(0, 0, 255, 0.952);
+color: #222;
+}
+
+.correct {
+  background-color: green!important;
+}
+
+.incorrect{
+  background-color: red!important;
+}
